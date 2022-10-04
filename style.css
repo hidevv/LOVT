@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+body {
+    font-family: 'Ropa Sans', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    color: #777777;
+    width: 728px;
+    
+}
+
+body > header {
+    padding: 8px 44px;
+    font-size: 26px;
+    line-height: 15px;
+    box-shadow: 4px 4px 4px gray;
+}
+
+header > * {
+    display: inline-block;
+    margin: 0;
+}
+
+body > header > img {
+    float: right;
+    margin-top: 15px
+}
+
+#banner {
+    margin-top: 10px 44px;
+}
+
+#sales {
+    margin-top: 10px 44px
+}
+
+#sales > article {
+    display: inline-block;
+    width: 30%;
+}
+
+#article > article#right-sale {
+    float: right;
+}
+
+#sales > article > footer {
+    padding: 12px;
+    background-color: #EEEEEE;
+}
+
+#sales span {
+    font-size: 25px;
+    line-height: 27px;
+}
+
+.right {
+    border-radius: 10.5px;
+    background-color: green;
+    float: right;
+}
+/*Seletores por descendência*/
+#your-style img {
+    opacity: 0.6;
+}
+
+
+/*/* Seletores por classe
+.styles {
+    width: 100%;
+    opacity: 0.5;
+}
+
+/*Seletores por id
+#primeira {
+    opacity: 0.5;
+}
+
+/*Seletores por child (filhos)
+#your-style > img {
+    opacity: 0.5;
+}*/
