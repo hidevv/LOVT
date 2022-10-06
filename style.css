@@ -82,14 +82,14 @@ body > main {
 
 .right {
   border-radius: 1.5rem;
-  background-color: #51D275;
+  background-color: lightgreen;
   color: white;
   padding: 0 1rem;
   float: right;
 }
 
 .right.sale {
-  background-color: #DC9730;
+  background-color: lightsalmon;
 }
 
 #your-style {
